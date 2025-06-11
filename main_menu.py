@@ -1,5 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from utils import * 
-from auth import regisAkun
+from auth import *
 from database import *
 
 # verifikasi awal apakah pengguna sudah punya akun
@@ -27,9 +31,27 @@ def MainMenu():
             match konfirmasiPengguna:
                 case 1:
                     clearTerminal()
-                    print(f"{loading_animation('memverifikasi akun')}")
+                    print(f"{loading_animation('memuat halaman')}")
                     clearTerminal()
-                    break
+                    match login_pengguna():
+                        case False:
+                            continue
+                        case None:
+                            continue
+                        case "pembeli":
+                            clearTerminal()
+                            return
+                        case "penjual":
+                            clearTerminal()
+                            return
+                        case "kurir":
+                            clearTerminal()
+                            return
+                        case "admin":
+                            clearTerminal()
+                            return
+                        case _:
+                            continue
                 case 2:
                     clearTerminal()
                     print(f"{loading_animation('membuka pendaftaran akun')}")

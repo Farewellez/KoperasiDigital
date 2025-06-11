@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from Data_export import export_produk_csv
 # import sys
 import os
 def clear_screen():
@@ -15,7 +20,6 @@ def clear_screen():
 #     toko_aktif = [row[0] for row in toko_aktif]
 #     for toko in toko_aktif:
 #         print("toko masih kosong")
-
 
 # ========== DATA DUMMY ==========
 penjual_requests = [

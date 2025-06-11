@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import psycopg2 # Library python yang digunkan untuk koneksi ke database PostgreSQL
 from dotenv import load_dotenv # Library python yang digunakan untuk memuat file .env
 import os # Library python yang digunakan untuk mengakses variabel lingkungan

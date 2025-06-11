@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from . import connectDB
 
 def create_user_db(nama_pengguna, password, email, telepon, id_alamat_pengguna=None):

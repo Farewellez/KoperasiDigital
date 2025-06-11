@@ -1,7 +1,11 @@
-from . import connectDB
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from .connection import create_connection
 
 def create_role_pembeli(id_pengguna, id_role = 1):
-    conn = connectDB()
+    conn = create_connection()
     if conn is None:
         return False
     try:
@@ -18,6 +22,36 @@ def create_role_pembeli(id_pengguna, id_role = 1):
         conn.rollback()
         print(f"Terjadi kesalahan saat membuat role pembeli: {e}")
         return False
+    finally:
+        cursor.close()
+        conn.close()
+
+def get_all_pengguna_rolesDB():
+    conn = create_connection()
+    if conn is None:
+        return False
+    try:
+        cursor = conn.cursor()
+        query = """
+        SELECT * FROM pengguna_roles
+        """
+        cursor.execute(query)
+        all_role = cursor.fetchall()
+
+        list_role = []
+        for role in all_role:
+            role_dict = {
+                'id_pengguna_role': role[0],
+                'id_pengguna': role[1],
+                'id_role': role[2]
+            }
+            list_role.append(role_dict)
+        return list_role
+        
+    except Exception as e:  
+        conn.rollback()
+        print(f"Terjadi kesalahan saat mengambil data pengguna: {e}")
+        return []
     finally:
         cursor.close()
         conn.close()

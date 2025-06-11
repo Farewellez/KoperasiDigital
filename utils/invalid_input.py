@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from .clear_terminal import clearTerminal
 from .loading import loading_animation
 
@@ -83,3 +87,29 @@ def invalidAkun():
       clearTerminal()
       loading_animation("memuat ulang")
       clearTerminal()
+
+def invalidEmailAkun():
+    input('''
+          ++================================================++
+          ||            ⚠️  INPUT TIDAK VALID ⚠️              ||
+          ||                                                ||
+          ||   EMAIL SUDAH TERDAFTAR, SILAKAN GUNAKAN EMAIL  ||
+          ||                YANG LAIN ATAU LOGIN             ||
+          ||                                                ||
+          ||         Tekan enter untuk melanjutkan...       ||
+          ++================================================++''')
+    clearTerminal()
+    loading_animation("memuat ulang")
+    clearTerminal()
+
+# invalid email or pw
+def invalidEmailOrPw():
+    input('''
+          ++================================================++
+          ||            ⚠️  INPUT TIDAK VALID ⚠️              ||
+          ||                                                ||
+          ||   EMAIL ATAU PASSWORD TIDAK SESUAI, SILAKAN    ||
+          ||   PERIKSA KEMBALI ATAU KONTAK ADMIN            ||
+          ||                                                ||
+          ||         Tekan enter untuk melanjutkan...       ||
+          ++================================================++''')
