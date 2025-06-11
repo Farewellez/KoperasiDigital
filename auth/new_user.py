@@ -130,4 +130,7 @@ def regisAkun():
      ||              🎉SELAMAT DATANG🎉                ||
      ||================================================||''')
     
-    return create_user_db(nama_pengguna, hashPW, email, telepon, id_alamat_pengguna=None)
+    pengguna_baru = create_user_db(nama_pengguna, hashPW, email, telepon, id_alamat_pengguna=None)
+    print(f"{loading_animation('menambahkan role pengguna')}")
+    create_role_pembeli(pengguna_baru, id_role=1)  
+    return pengguna_baru

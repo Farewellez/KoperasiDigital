@@ -1,4 +1,4 @@
-from utils import MainMenu
+from main_menu import MainMenu
 from utils import clearTerminal
 
 def main():

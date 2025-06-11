@@ -1,6 +1,4 @@
-from .invalid_input import invalidInput
-from .clear_terminal import clearTerminal
-from .loading import loading_animation
+from utils import * 
 from auth import regisAkun
 from database import *
 
@@ -38,6 +36,7 @@ def MainMenu():
                     clearTerminal()
                     if not regisAkun():  # Masuk ke fungsi pendaftaran akun baru
                         continue
+                    print(f"{loading_animation('memuat halaman')}")
                     break 
                 case 3:
                     clearTerminal()
