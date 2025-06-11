@@ -1,6 +1,8 @@
 from string import ascii_letters
-from utils import invalidName, invalidPW, invalidEmail, invalidTelepon, clearTerminal
-from utils import loading_animation, hash_password
+from . import check_account
+from utils import *
+from database import *
+from utils.hashing import hash_password
 
 # fungsi untuk membuat input data dari pengguna baru
 def newUser():
@@ -88,7 +90,7 @@ def regisAkun():
         password = regisPassword()
         if password is None:
             continue
-        # Hash password sebelum menyimpannya
+        # password hasil di-hash sebelum disimpan
         hashPW = hash_password(password)
         break
     
@@ -97,13 +99,22 @@ def regisAkun():
         if email is None:
             continue
         break
-    
+
     while True:
         telepon = regisTelepon()
         if telepon is None:
             continue
         break
     
+    # Cek apakah kombinasi email dan telepon sudah ada di database
+    if not check_account.check_id_appearance(email, telepon):
+        clearTerminal()
+        print(f"{loading_animation('memuat halaman')}")
+        clearTerminal()
+        return None
+    
+    # Jika semua input valid, buat akun baru
+    clearTerminal()
     print('''
      ++================================================++
      ||       _   ___   _____ ______       ____        ||
@@ -119,3 +130,4 @@ def regisAkun():
      ||              🎉SELAMAT DATANG🎉                ||
      ||================================================||''')
     
+    return create_user_db(nama_pengguna, hashPW, email, telepon, id_alamat_pengguna=None)

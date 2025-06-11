@@ -69,3 +69,17 @@ def invalidTelepon():
     clearTerminal()
     loading_animation("memuat ulang")
     clearTerminal()
+
+def invalidAkun(): 
+      input('''
+              ++================================================++
+              ||            ⚠️  INPUT TIDAK VALID ⚠️              ||
+              ||                                                ||
+              ||   AKUN SUDAH TERDAFTAR, SILAKAN GUNAKAN AKUN   ||
+              ||                YANG LAIN ATAU LOGIN             ||
+              ||                                                ||
+              ||         Tekan enter untuk melanjutkan...       ||
+              ++================================================++''')
+      clearTerminal()
+      loading_animation("memuat ulang")
+      clearTerminal()

@@ -2,6 +2,7 @@ from .invalid_input import invalidInput
 from .clear_terminal import clearTerminal
 from .loading import loading_animation
 from auth import regisAkun
+from database import *
 
 # verifikasi awal apakah pengguna sudah punya akun
 def MainMenu():
@@ -30,12 +31,13 @@ def MainMenu():
                     clearTerminal()
                     print(f"{loading_animation('memverifikasi akun')}")
                     clearTerminal()
-                    pass # Isi nanti dengan logika untuk verifikasi akun
+                    break
                 case 2:
                     clearTerminal()
                     print(f"{loading_animation('membuka pendaftaran akun')}")
                     clearTerminal()
-                    regisAkun() # Masuk ke fungsi pendaftaran akun baru
+                    if not regisAkun():  # Masuk ke fungsi pendaftaran akun baru
+                        continue
                     break 
                 case 3:
                     clearTerminal()

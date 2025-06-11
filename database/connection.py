@@ -22,7 +22,7 @@ def create_connection():
             user=DB_USER,
             password=DB_PASSWORD
         )
-        print("Koneksi ke database berhasil!")
+        # print("Koneksi ke database berhasil!")
         return connection
     except Exception as e:
         print(f"Terjadi kesalahan saat menghubungkan ke database: {e}")
