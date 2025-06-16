@@ -2,7 +2,6 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from Data_export import export_produk_csv
 # import sys
 import os
 def clear_screen():
@@ -32,7 +31,7 @@ toko_aktif = [
 
 produk_list = [
     {"id": 1, "nama": "Baju", "kategori": "Fashion", "waktu": "2025-06-01", "status": "DITERIMA"},
-    {"id": 2, "nama": "Laptop", "kategori": "Elektronik", "waktu": "2025-06-03", "status": "PENDING"},
+    {"id": 2, "nama": "Laptop", "kategori": "Elektronik", "waktu": "2025-06-03", "status": "DITERIMA"},
     {"id": 3, "nama": "Sepatu", "kategori": "Fashion", "waktu": "2025-06-02", "status": "DITERIMA"},
 ]
 

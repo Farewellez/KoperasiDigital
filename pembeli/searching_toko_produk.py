@@ -52,6 +52,7 @@ def binary_search(arr, target, key):
             while i >= 0 and arr[i][key].lower() == target:
                 result.insert(0, arr[i])
                 i -= 1
+                
             i = mid + 1
             while i < len(arr) and arr[i][key].lower() == target:
                 result.append(arr[i])

@@ -1,13 +1,14 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) 
 
-from utils import * 
+from utils import *
 from auth import *
 from database import *
 
 # verifikasi awal apakah pengguna sudah punya akun
 def MainMenu():
+    clearTerminal() # Dari utils clear terminal
     while True:
         print('''
              ++================================================++
@@ -31,44 +32,55 @@ def MainMenu():
             match konfirmasiPengguna:
                 case 1:
                     clearTerminal()
-                    print(f"{loading_animation('memuat halaman')}")
-                    clearTerminal()
-                    match login_pengguna():
+                    print(f"{loading_animation('memuat halaman')}") # dari utils loading
+                    clearTerminal() # dari  clear terminal
+                    match login_pengguna(): # dari auth login
                         case False:
                             continue
                         case None:
                             continue
                         case "pembeli":
-                            clearTerminal()
+                            print("pengguna adalah pembeli")
+                            input()
+                            clearTerminal() # dari utils clear terminal
                             return
                         case "penjual":
-                            clearTerminal()
+                            print("pengguna adalah penjual")
+                            input()
+                            clearTerminal() # dari utils clear terminal
                             return
                         case "kurir":
-                            clearTerminal()
+                            print("pengguna adalah kurir")
+                            input()
+                            clearTerminal() # dari utils clear terminal
                             return
                         case "admin":
-                            clearTerminal()
+                            print("pengguna adalah admin")
+                            input()
+                            clearTerminal() # dari utils clear terminal
                             return
                         case _:
                             continue
                 case 2:
-                    clearTerminal()
-                    print(f"{loading_animation('membuka pendaftaran akun')}")
-                    clearTerminal()
-                    if not regisAkun():  # Masuk ke fungsi pendaftaran akun baru
+                    clearTerminal() # dari utils clear terminal
+                    print(f"{loading_animation('membuka pendaftaran akun')}") # dari utils loading
+                    clearTerminal() # dari utils clear terminal
+                    if not regisAkun():  # dari auth newuser
                         continue
-                    print(f"{loading_animation('memuat halaman')}")
-                    break 
+                    print(f"{loading_animation('memuat halaman awal\nsilahkan melakukan login ulang')}") # dari auth loading
+                    clearTerminal() # dari utils clear terminal
+                    continue
                 case 3:
-                    clearTerminal()
+                    clearTerminal() # dari utils clear terminal
                     print("Terima kasih telah menggunakan program ini. Sampai jumpa!")
                     exit(0) # Keluar dari program
                 case _:
-                    clearTerminal()
-                    invalidInput() # Input tidak valid
+                    clearTerminal() # dari utils clear terminal
+                    invalidInput() # dari utils invalid input
+                    continue
+
         except ValueError:
-            clearTerminal()
-            print(f"{loading_animation("verifikasi pilihan")}")
-            clearTerminal()
-            invalidInput()
+            clearTerminal() # dari utils clear terminal
+            print(f"{loading_animation("verifikasi pilihan")}") # dari utils loading
+            clearTerminal() # dari utils clear terminal
+            invalidInput() # dari utils invalid input
