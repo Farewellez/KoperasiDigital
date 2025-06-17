@@ -2,10 +2,10 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from . import connectDB
+from .connection import create_connection
 
 def create_user_db(nama_pengguna, password, email, telepon, id_alamat_pengguna=None):
-    connection = connectDB() # dari . connection.py
+    connection = create_connection() # dari . connection.py
     if connection is None:
         return False
     
@@ -30,7 +30,7 @@ def create_user_db(nama_pengguna, password, email, telepon, id_alamat_pengguna=N
         connection.close()
 
 def get_all_alamatpenggunaDB():
-    conn = connectDB()
+    conn = create_connection()
     if conn is None:
         return []
     try:

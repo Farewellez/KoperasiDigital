@@ -38,8 +38,7 @@ def fitur_status_checkout():
         clear_screen()
         print("=== Status Checkout Barang ===")
         if not checkout_history:
-            print("Belum ada transaksi checkout.")
-            input("Tekan Enter untuk kembali...")
+            input("Belum ada transaksi checkout. Tekan Enter untuk kembali...")
             return
 
         for idx, item in enumerate(checkout_history, 1):

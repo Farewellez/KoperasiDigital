@@ -1,4 +1,4 @@
-from .connection import create_connection as connectDB
+from .connection import *
 from .crud_userDB import *
 from .role_service import *
 from .crud_userDB import *
