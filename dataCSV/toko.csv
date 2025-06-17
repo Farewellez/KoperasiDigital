@@ -1,0 +1,51 @@
+id_toko,nama_toko,deskripsi_toko,tanggal_mendaftar,status_toko
+1,Toko Alpha,Spesialis Tamiya,2023-01-01,aktif
+2,Toko Beta,Aksesoris Tamiya,2023-01-10,aktif
+3,Toko Gamma,Suku Cadang Tamiya,2023-01-20,aktif
+4,Toko Delta,Modifikasi Tamiya,2023-02-01,aktif
+5,Toko Epsilon,Sparepart Tamiya Langka,2023-02-15,aktif
+6,Toko Zeta,Cat & Decal Tamiya,2023-03-01,aktif
+7,Toko Eta,Ban Tamiya Racing,2023-03-10,aktif
+8,Toko Theta,Motor Tamiya Terbaik,2023-03-20,aktif
+9,Toko Iota,Baterai Tamiya Kuat,2023-04-01,aktif
+10,Toko Kappa,Peralatan Perakitan Tamiya,2023-04-15,aktif
+11,Toko Lambda,Bengkel Tamiya Profesional,2023-05-01,aktif
+12,Toko Mu,Lampu LED Tamiya,2023-05-10,aktif
+13,Toko Nu,Chassis Tamiya Custom,2023-05-20,aktif
+14,Toko Xi,Bearing Tamiya Halus,2023-06-01,aktif
+15,Toko Omicron,Kit Pemula Tamiya,2023-06-15,aktif
+16,Toko Pi,Diecast Tamiya Koleksi,2023-07-01,aktif
+17,Toko Rho,Body Tamiya Unik,2023-07-10,aktif
+18,Toko Sigma,Stiker Tamiya Keren,2023-07-20,aktif
+19,Toko Tau,Shock Absorber Tamiya,2023-08-01,aktif
+20,Toko Upsilon,Magnet Tamiya Kuat,2023-08-15,aktif
+21,Toko Phi,Girbox Tamiya Presisi,2023-09-01,aktif
+22,Toko Chi,Suspensi Tamiya Fleksibel,2023-09-10,aktif
+23,Toko Psi,Aerodinamika Tamiya,2023-09-20,aktif
+24,Toko Omega,Peningkat Performa Tamiya,2023-10-01,aktif
+25,Toko Alpha Prime,Tamiya Vintage,2023-10-15,aktif
+26,Toko Beta Prime,Tamiya Mini 4WD,2023-11-01,aktif
+27,Toko Gamma Prime,Tamiya RC,2023-11-10,aktif
+28,Toko Delta Prime,Track Tamiya Portable,2023-11-20,aktif
+29,Toko Epsilon Prime,Buku Panduan Tamiya,2023-12-01,aktif
+30,Toko Zeta Prime,Aksesoris Diorama Tamiya,2023-12-15,aktif
+31,Toko Eta Prime,Tamiya Khusus Balap,2024-01-01,aktif
+32,Toko Theta Prime,Tamiya Custom Build,2024-01-10,aktif
+33,Toko Iota Prime,Layanan Reparasi Tamiya,2024-01-20,aktif
+34,Toko Kappa Prime,Cat Semprot Tamiya,2024-02-01,aktif
+35,Toko Lambda Prime,Alat Pembersih Tamiya,2024-02-15,aktif
+36,Toko Mu Prime,Pelumas Roda Tamiya,2024-03-01,aktif
+37,Toko Nu Prime,Obeng Set Tamiya,2024-03-10,aktif
+38,Toko Xi Prime,Kuas Detail Tamiya,2024-03-20,aktif
+39,Toko Omicron Prime,Penjepit Part Tamiya,2024-04-01,aktif
+40,Toko Pi Prime,Box Penyimpanan Tamiya,2024-04-15,aktif
+41,Toko Rho Prime,Stasiun Kerja Tamiya,2024-05-01,aktif
+42,Toko Sigma Prime,Kaca Pembesar Tamiya,2024-05-10,aktif
+43,Toko Tau Prime,Lampu Meja Tamiya,2024-05-20,aktif
+44,Toko Upsilon Prime,Amplifier Suara Tamiya,2024-06-01,aktif
+45,Toko Phi Prime,Display Case Tamiya,2024-06-15,aktif
+46,Toko Chi Prime,Tas Transport Tamiya,2024-07-01,aktif
+47,Toko Psi Prime,Kompresor Airbrush Tamiya,2024-07-10,aktif
+48,Toko Omega Prime,Sparepart Original Tamiya,2024-07-20,aktif
+49,Toko Zenith,Kustomisasi Tamiya Lengkap,2024-08-01,aktif
+50,Toko Apex,Pusat Koleksi Tamiya,2024-08-15,aktif

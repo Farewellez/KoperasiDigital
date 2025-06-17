@@ -1,0 +1,151 @@
+id_produk,nama_produk,harga,id_toko
+1,Tamiya Biru,50000,1
+2,Tamiya Merah,60000,1
+3,Dinamo Turbo,80000,2
+4,Baterai AA Power Pack,25000,1
+5,Velg Spoke Racing,35000,2
+6,Ban Low Profile,45000,2
+7,Kit Pemula Speed Racer,120000,3
+8,Cat Semprot Hitam Doff,15000,3
+9,Obeng Phillips Mini,20000,3
+10,Tamiya Aero Avante,75000,4
+11,Roller Bearing Set,40000,4
+12,Mass Damper Set,55000,4
+13,Body Clear Polycarbonate,90000,5
+14,Decal Set Custom,10000,5
+15,Sasis Super II,150000,5
+16,Kit Tamiya DCR-01,130000,6
+17,Motor Rev-Tuned 2,95000,6
+18,Gir Set High Speed,60000,6
+19,Tamiya Raikiri,180000,7
+20,Tire Sponge Set,70000,7
+21,Front Under Guard,85000,7
+22,Tamiya Dual Ridge Junior,160000,8
+23,Ban Block Pattern,50000,8
+24,Adjustable Mass Damper,75000,8
+25,Tamiya Avante 2001,250000,9
+26,Spare Gear Set,120000,9
+27,Cat Metalik Silver,20000,9
+28,Tamiya Dash-1 Emperor,200000,10
+29,Diorama Base Small,30000,10
+30,LED Light Bar,28000,10
+31,Tamiya Cyclone Magnum,170000,11
+32,Toolkit Basic,40000,11
+33,Adhesive for Plastic,18000,11
+34,Tamiya Brocken Gigant,165000,12
+35,Brake Sponge Set,32000,12
+36,Terminal Set Gold Plated,27000,12
+37,Tamiya Magnum Saber,140000,13
+38,Chassis FM-A,90000,13
+39,Stabilizer Head Set,38000,13
+40,Tamiya Vanquish,190000,14
+41,Low Friction Roller,48000,14
+42,Carbon Reinforced Plate,65000,14
+43,Tamiya Bigwig,220000,15
+44,Tamiya Connector Cable,22000,15
+45,Mini 4WD Check Box,50000,15
+46,Tamiya Hotshot,210000,16
+47,Display Stand Clear,25000,16
+48,Tamiya Model Cement,12000,16
+49,Tamiya Fire Dragon,195000,17
+50,Weight Set Brass,30000,17
+51,Pinion Gear Remover,40000,17
+52,Tamiya Thunder Shot,185000,18
+53,Side Damper Set,52000,18
+54,Body Catch Set,15000,18
+55,Tamiya Super Astute,230000,19
+56,Oil Damper Set,70000,19
+57,Spring Set Hard,28000,19
+58,Tamiya Top Force,240000,20
+59,Neodymium Magnet,35000,20
+60,Counter Gear Set,45000,20
+61,Tamiya Dyna Storm,260000,21
+62,Gear Grease,18000,21
+63,Ball Diff Set,80000,21
+64,Tamiya Dark Impact,175000,22
+65,Universal Shaft Set,60000,22
+66,CVA Mini Shock Unit,72000,22
+67,Tamiya Terra Scorcher,205000,23
+68,Wing Set Adjustable,42000,23
+69,Diffuser Plate,58000,23
+70,Tamiya Lancia 037 Rally,280000,24
+71,Tuning Spring Set,30000,24
+72,Heat Sink Motor Mount,48000,24
+73,Tamiya Wild Willy 2,290000,25
+74,Tamiya Grasshopper,155000,25
+75,Tamiya Hornet,160000,25
+76,Tamiya Kumamon Version,170000,26
+77,Tamiya Aero Manta Ray,110000,26
+78,Tamiya Dash X1 Proto Emperor,140000,26
+79,Tamiya RC Truck Mercedes-Benz,350000,27
+80,Tamiya RC Buggy DT-03,280000,27
+81,Tamiya RC Crawler CC-01,320000,27
+82,Portable Pit Bag,75000,28
+83,Lap Counter System,180000,28
+84,Curved Section Track,60000,28
+85,Tamiya Basic Guidebook,45000,29
+86,Advanced Tuning Manual,65000,29
+87,History of Tamiya Book,90000,29
+88,Miniature Tree Set,25000,30
+89,Street Lamp Diorama,35000,30
+90,Figure Set Pit Crew,50000,30
+91,Tamiya Neo VQS,150000,31
+92,Hyper Dash Motor PRO,105000,31
+93,Carbon Reinforcing Plate (Front),75000,31
+94,Tamiya Mach Frame,160000,32
+95,Tool Set Precision,80000,32
+96,Painting Stand,30000,32
+97,Tamiya Repair Kit Essential,95000,33
+98,Bearing Oil,20000,33
+99,Cleaning Brush Set,15000,33
+100,Tamiya Spray Paint PS-5 Black,30000,34
+101,Tamiya Spray Paint TS-8 Italian Red,30000,34
+102,Tamiya Spray Paint PS-1 White,30000,34
+103,Tamiya Cleaning Cloths,10000,35
+104,Air Blower Dust Remover,25000,35
+105,Detail Cotton Swabs,8000,35
+106,Tamiya Grease Molybdenum,15000,36
+107,Gear Lubricant PTFE,18000,36
+108,Bearing Grease High Speed,22000,36
+109,Tamiya Driver Set Basic,40000,37
+110,Hex Wrench Set,35000,37
+111,Tamiya Screwdriver Fine Point,25000,37
+112,Fine Detail Brush Set,30000,38
+113,Flat Brush Wide,20000,38
+114,Weathering Master Set,45000,38
+115,Tamiya Part Separator,12000,39
+116,Tamiya Hobby Tweezers Set,28000,39
+117,Cutting Mat A4,35000,39
+118,Tamiya Parts Case Small,20000,40
+119,Organizer Box Large,45000,40
+120,Tool Box Portable,60000,40
+121,Tamiya Work Stand,70000,41
+122,Magnetic Parts Tray,30000,41
+123,LED Magnifying Lamp,120000,41
+124,Head Magnifier with LED,55000,42
+125,Desktop Magnifying Glass,45000,42
+126,Lens Cleaning Kit,15000,42
+127,Desk Lamp Flexible Arm,70000,43
+128,Clip-on LED Light,30000,43
+129,Ring Light for Detail Work,90000,43
+130,Mini Speaker Bluetooth,80000,44
+131,Headphones Noise Cancelling,150000,44
+132,Portable Power Bank,60000,44
+133,Acrylic Display Case Small,50000,45
+134,Display Base with Mirror,75000,45
+135,Rotating Display Stand,110000,45
+136,Tamiya Carry Bag Large,90000,46
+137,Backpack for RC Cars,120000,46
+138,Tool Roll Organizer,40000,46
+139,Airbrush Compressor Kit,400000,47
+140,Airbrush Cleaning Pot,50000,47
+141,Airbrush Paint Set Basic,150000,47
+142,Tamiya RC Spare Parts Set,180000,48
+143,Tamiya Mini 4WD Original Motor,70000,48
+144,Tamiya RC ESC Unit,220000,48
+145,Custom Body Painting Service (Voucher),300000,49
+146,3D Printed Custom Parts,150000,49
+147,Personalized Tamiya Decals,100000,49
+148,Rare Tamiya Kit Collection,500000,50
+149,Vintage Tamiya Parts Vault,450000,50
+150,Limited Edition Tamiya Release,600000,50

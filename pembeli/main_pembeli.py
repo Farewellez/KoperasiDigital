@@ -9,6 +9,8 @@ from daftar_kurir import daftar_menjadi_kurir
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+print("DEBUG: Sampai sini OK") 
+
 def menu_pembeli():
     while True:
         clear_screen()
