@@ -112,7 +112,7 @@ def konfirmasi_produk():
 
             if aksi == 'y':
                 produk_df.loc[produk_df['id_produk'] == id_konfirm, 'status_produk'] = "Disetujui"
-                print("✅ Produk disetujui.")
+                print("Produk disetujui.")
             else:
                 while True:
                     alasan = input("Masukkan alasan penolakan produk: ").strip()
@@ -120,7 +120,7 @@ def konfirmasi_produk():
                         break
                     print("Alasan tidak boleh kosong.")
                 produk_df.loc[produk_df['id_produk'] == id_konfirm, 'status_produk'] = f"Ditolak - {alasan}"
-                print("❌ Produk ditolak dan alasan dicatat.")
+                print("Produk ditolak dan alasan dicatat.")
 
             simpan_produk_csv(produk_df)
             produk_list = df_to_dict_list(produk_df)
