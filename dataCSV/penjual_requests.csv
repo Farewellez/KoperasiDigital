@@ -1,0 +1,9 @@
+id,nama,produk,status
+1,Toko Dua,Baju;Sepatu,ditolak - t
+2,Toko Tiga,Tas;Dompet,menunggu verifikasi
+3,Toko Empat,Kemeja;Jaket,menunggu verifikasi
+4,Toko Lima,Topi;Sandal,menunggu verifikasi
+5,Toko Enam,Kaos;Celana,menunggu verifikasi
+6,Toko Tujuh,Sepatu;Tas,ditolak - coba
+7,Toko Delapan,Baju;Celana,ditolak - Sepi
+8,Toko Sembilan,Jaket;Topi,disetujui

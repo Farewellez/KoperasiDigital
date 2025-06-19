@@ -1,0 +1,7 @@
+id_produk,nama_produk,harga,id_toko,kategori,tanggal_ditambahkan,status_produk
+1,Tamiya Biru,50000,1,Tamiya,2024-06-01,Disetujui
+2,Tamiya Merah,60000,1,Tamiya,2024-06-01,Disetujui
+3,Dinamo Turbo,80000,2,Sparepart,2024-06-02,Disetujui
+4,TV LED 32,1500000,3,Elektronik,2024-06-04,Ditolak - gatau
+5,Speaker Bluetooth,300000,4,Elektronik,2024-06-03,menunggu verifikasi
+6,Hoodie CHMB,1000000,5,Fashion,2024-06-05,menunggu verifikasi

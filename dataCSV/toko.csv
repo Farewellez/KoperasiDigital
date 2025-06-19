@@ -1,0 +1,10 @@
+id_toko,nama_toko,deskripsi_toko,tanggal_mendaftar,status_toko
+1,Toko Alpha,Spesialis Tamiya,2023-01-01,nonaktif
+2,Toko Beta,Aksesoris Tamiya,2023-01-10,nonaktif - tes
+2,Toko Tiga,Toko TOP UP TERMURAH,2025-06-18,nonaktif - tes
+3,Toko Empat,Madura 24 JAM,2025-06-19,nonaktif - karna melanggar
+4,Toko Lima,Belum ada deskripsi,2025-06-19,nonaktif - covid
+5,Toko Enam,Toko TOP UP TERMURAH,2025-06-19,aktif
+6,Toko Tujuh,Madura 24 JAM,2025-06-19,aktif
+7,Toko Delapan,Belum ada deskripsi,2025-06-19,aktif
+8,Toko Sembilan,Belum ada deskripsi,2025-06-19,aktif
